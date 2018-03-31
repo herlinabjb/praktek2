@@ -6,7 +6,13 @@ public class JualBaju {
    void cetakInfo(){
         System.out.println("harga_baju : "+harga_baju);
         System.out.println("jumlah_beli : "+jumlah_beli);
-        
     }
+   
+   Integer hitungtotal() {
+       Integer total;
+       total=harga_baju*jumlah_beli;
+       return total;
+       
+   }
     
 }
