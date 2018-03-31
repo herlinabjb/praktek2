@@ -2,6 +2,11 @@ package praktek2;
 public class JualBaju {
     Integer harga_baju;
     Integer jumlah_beli;
+
+    public JualBaju() {
+        harga_baju=150000;
+        jumlah_beli=2;
+    }
     
    void cetakInfo(){
         System.out.println("harga_baju : "+harga_baju);

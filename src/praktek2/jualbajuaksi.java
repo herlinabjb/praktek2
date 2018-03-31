@@ -8,7 +8,7 @@ public class jualbajuaksi {
         
         rl.cetakInfo();
         System.out.println("total JualBaju = "+rl.hitungtotal());
-        
+         
         
     }
     
