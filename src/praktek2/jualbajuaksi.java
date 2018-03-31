@@ -6,6 +6,9 @@ public class jualbajuaksi {
         rl.jumlah_beli = 3;
         
         
+        rl.cetakInfo();
+        
+        
     }
     
 }
