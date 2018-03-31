@@ -7,8 +7,23 @@ public class jualbajuaksi {
         
         
         rl.cetakInfo();
-        System.out.println("total JualBaju = "+rl.hitungtotal());
-         
+        System.out.println("total JualBaju = "+rl.hitungtotal()); 
+        rl.cetaktotal();
+        
+        
+        JualBaju r2 = new JualBaju();
+        r2.cetakInfo();
+    
+        
+        JualBaju r3 = new JualBaju(200000,5);
+        r3.cetakInfo();
+        
+    
+    
+    
+        
+        
+   } 
         
     }
     
