@@ -15,4 +15,9 @@ public class JualBaju {
        
    }
     
+   void cetaktotal() {
+       System.out.println("totalnya adalah: "+hitungtotal()); 
+       rl.cetaktotal();
+       
+   }
 }
